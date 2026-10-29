@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Me</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <hr>
+    <!-- External Links -->
+    <section>
+        <p>my codes:<a href="https://github.com"
+           target="_blank"
+           title="Visit GitHub">
+            GitHub</p>
+        </a>
+        <p>my linkedin:<a href="https://linkedin.com"
+           target="_blank"
+           title="Visit LinkedIn">
+            LinkedIn</p>
+        </a>
+    </section>
+    <!-- Contact Form -->
+     <!-- ===== CONTACT FORM ===== -->
+    <section>
+      <h3>Send Me a Message</h3>
+
+      <form >
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="username" placeholder="Your full name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+        <p>I am a:</p>
+        <input type="radio" id="teacher" name="role" value="teacher" required>
+        <label for="teacher">Teacher</label>
+        <input type="radio" id="employer" name="role" value="employer">
+        <label for="employer">Employer</label>
+        <input type="radio" id="developer" name="role" value="developer">
+        <label for="developer">Developer</label>
+        <input type="radio" id="friend" name="role" value="friend">
+        <label for="student">student</label>
+         <br><br>
+            <p>Gender:</p>
+            <input type="radio"
+                   id="male"
+                   name="gender">
+            <label for="male">Male</label>
+            <input type="radio"
+                   id="female"
+                   name="gender">
+            <label for="female">Female</label>
+            <br><br>
+
+        <p>I am writing about:</p>
+        <input type="checkbox" id="feedback" name="topic" value="feedback">
+        <label for="feedback">Feedback on my website</label><br>
+        <input type="checkbox" id="collab" name="topic" value="collaboration">
+        <label for="collab">A collaboration</label><br>
+        <input type="checkbox" id="advice" name="topic" value="advice">
+        <label for="advice">Learning advice</label><br><br>
+        <label for="source">How did you find my portfolio?</label>
+        <select id="source" name="source">
+          <option value="link">A link someone sent me</option>
+          <option value="github">GitHub</option>
+          <option value="class">My class</option>
+          <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30" placeholder="Write your message here"></textarea><br><br>
+
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button>
+      </form>
+      <p>
+        Note: this form is for practice. For a fast reply, please use the
+        email or Telegram links above.
+      </p>
+    </section>
+</body>
+
+</html>
